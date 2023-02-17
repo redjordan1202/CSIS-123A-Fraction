@@ -2,7 +2,7 @@
 Jordan Del Pilar
 0701246
 Fraction.cpp
-Added new constructors per guided practice 2
+Updated to have overloaded operators
 */
 #include <iostream>
 #include <string>
@@ -74,4 +74,40 @@ Fraction Fraction::div(const Fraction& f)
 void Fraction::printFraction()
 {
 	cout << this->num << "/" << this->den << endl;
+}
+
+int Fraction::getNum() const
+{
+    return this->num;
+}
+
+int Fraction::getDen() const
+{
+    return this->den;
+}
+
+
+Fraction Fraction::operator +(const Fraction &f)
+{
+    return this->add(f);
+}
+
+Fraction Fraction::operator -(const Fraction &f)
+{
+    return this->sub(f);
+}
+
+Fraction Fraction::operator *(const Fraction &f)
+{
+    return this->mul(f);
+}
+
+Fraction Fraction::operator /(const Fraction &f)
+{
+    return this->mul(f);
+}
+Fraction &Fraction::operator =(const Fraction &f)
+{
+    this->setFraction(f.getNum(), f.getDen());
+    return *this;
 }
