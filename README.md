@@ -12,8 +12,8 @@ This repository will show the changes of the Fraction class as functionality is 
 <br/>
 
 # Assignments
-##### This Repository starts at Assignment 5. 
+##### This Repository starts at Guided Practice 2. 
 
-## [Guided Practice 2 - Constructors](#)
+## [Guided Practice 2 - Constructors](https://github.com/redjordan1202/CSIS-123A-Fraction/commit/522b628c7af7351fe9b4d70b8b4986446f7d531d)
 ##### The commit for this assignment is listed as "first commit"
-The goal of this Guided Practice is to reinforce knowledge of Constructors.
+The goal of this Guided Practice is to reinforce knowledge of Constructors
